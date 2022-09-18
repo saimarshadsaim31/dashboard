@@ -39,14 +39,14 @@ const Main = () => {
         </section>
 
         {/* center section */}
-        <section className='center grid grid-cols-3 gap-6'>
+        <section className='center w-full grid grid-cols-3 gap-6 overflow-hidden'>
           <TopCard img={topCardImg} name='Christina Ambrosia' />
           <TopCard img={topCardImg} name='Alex Williams' isRating />
           <TopCard img={topCardImg} name='Desi Accent' />
         </section>
 
         {/* bottom section */}
-        <section>
+        <section className='overflow-hidden'>
           <p className='text-custom-black text-[26px] font-semibold tracking-[.19px] mb-4'>
             Active orders
           </p>
